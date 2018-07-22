@@ -1,8 +1,8 @@
 {
   "name": "react-native-equalizer",
-  "version": "0.2.82",
+  "version": "0.2.86",
   "description": "An equalizer like control for react native",
-  "main": "lib/Equalizer.js",
+  "main": "lib/NumberEnumerator.js",
   "repository": {
     "type": "git",
     "url": "git@github.com/Buddhalow/react-native-equalizer.git"
