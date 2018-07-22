@@ -23,13 +23,14 @@ export default class Equalizer extends React.Component {
         }
         if (sum + obj.value != 100) {
             let count = Object.keys(data).length
-            let difference = 150 - (sum + obj.value)
+            let difference = 100 - (sum + obj.value)
             let fragment =  difference / (count)   
             for (let key of Object.keys(data)) {
                 let obj2 = data[key]
                 
                 if (key != k) {
                     obj2.value += fragment
+                    if (obj2.value < 0) obj2.value = 0
                     data[key].realValue = (obj2.value / 100)  * this.state.maximumValue
                 }
             }

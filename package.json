@@ -1,6 +1,6 @@
 {
   "name": "react-native-equalizer",
-  "version": "0.2.8",
+  "version": "0.2.82",
   "description": "An equalizer like control for react native",
   "main": "lib/Equalizer.js",
   "repository": {
